@@ -1,14 +1,24 @@
+/* changes elements to include padding and border,
+changes padding and margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* changes body tag background color*/
 body {
     background-color: #d9dcd6;
+    
+}
+
+/* changes p tags font size */
+p {
     font-size: 16px;
 }
 
+/* changes header tag padding, font style, background color
+and font color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,6 +26,8 @@ header {
     color: #ffffff;
 }
 
+/* changes header section tag padding, right margin, 
+font stlye and size*/
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -24,21 +36,33 @@ header section {
     font-size: 20px;
 }
 
+/* changes list item's margin and display in the header's
+section's unordered list*/
 header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-header h1 {
+/* changes h1 tags font size and display */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes h1 seo id tag color */
+h1 #seo {
+    color: #d9dcd6;
+}
+
+/* changes anchor tags colors and text decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes footer tag padding, clear (whether an element 
+must be moved below floating elements before it),
+font style and text alignment*/
 footer {
     padding: 30px;
     clear: both;
@@ -46,10 +70,13 @@ footer {
     text-align: center;
 }
 
-footer h4 {
+/* changes h4 tags font size */
+h4 {
     font-size: 20px;
 }
 
+/* adds background image with set height, width, 
+bottom margin,background size and position */
 .background-image {
     height: 800px;
     width: 100%;
@@ -59,21 +86,49 @@ footer h4 {
     background-position: center;
 }
 
+/* changes content class tags width, display, and left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* changes content section tags bottom margin, padding, height,
+font style, background color, and text color*/
+.content section{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* changes content class h2 tags margin bottom and font size */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* changes content class img tags max height */
 .content img {
     max-height: 200px;
 }
 
+/* changes content float-left id tags float and right margins */
+.content #float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* changes content float-right id tags float and left margins */
+.content #float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* changes benefits class tags right margin, padding, 
+clear, float, width, height, font style and background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,46 +141,23 @@ footer h4 {
     
 }
 
+/* changes benefits section tags bottom margin and text color */
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* changes benefits class h3 tags bottom margin and 
+text alignment */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* changes benefits class img tags display type, 
+margin, and max width */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-#seo {
-    color: #d9dcd6;
-}
-
-#float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-
-#search-engine-optimization, 
-#online-reputation-management,
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#benefit-lead,
-#benefit-brand,
-#benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
 }
