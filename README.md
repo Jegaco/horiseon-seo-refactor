@@ -16,8 +16,9 @@ Some of the changes made include:
 * Consolidation and orginization of CSS selectors to follow HTML's semantic structure
 
 ## Links
-[Link to the deplyed website](https://jegaco.github.io/horiseon-seo-refactor/#social-media-marketing)
-[Link to the code repository](https://github.com/Jegaco/horiseon-seo-refactor)
+* [Link to the deployed website](https://jegaco.github.io/horiseon-seo-refactor/#social-media-marketing)
+
+* [Link to the code repository](https://github.com/Jegaco/horiseon-seo-refactor)
 
 ## Preview
 Preview of application viewed on a desktop web browser.
